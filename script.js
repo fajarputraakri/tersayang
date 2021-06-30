@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('July 01, 2021 00:00:00').getTime(),
+let countDown = new Date('July 01, 2020 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -147,21 +147,21 @@ const _slideEnam = function () {
 
 new TypeIt("#teks1", {
   strings: ["Assalamualaikum Wr. Wb", " ", "Saya Mohammad Fajar Putra Akri pada hari ini Kamis, 01 Juli 2021 dengan sepenuh hati mengucapkan", " ", "<b>Selamat Ulang Tahun Yang ke - 20</b>", " ", "Kepada Eliese Sherly Rabti, semoga sayang panjang umur, dan bahagia selalu. Aamiin. Sekian surat pernyataan dari saya", , " ", "Wassalamualakaikum Wr. Wb", " ", "- Mohammad Fajar Putra Akri"],
-  startDelay: 15000,
+  startDelay: 4000,
   speed: 75,
-  waitUntilVisible: false
+  waitUntilVisible: true
 }).go();
 
 new TypeIt("#teks2", {
   strings: ["Haii Sayangkuu!!", "Barakallah fii Umrik yaa sayang...", " ", "Ciie udah 20 tahun, baru aja kemarin fajar yang keduluan tua, eh sekarang sayang juga nyusul umurnya fajar, samaan dong kita sekarang umurnya sayang. Semoga di umur yang sekarang sayang bisa jadi pribadi yang lebih baik lagi, lebih rajin, lebih sayang sama fajar, kurangi marahnya, kurangi ngambeknya, jaga hatinya, jangan suka lihatin cowo lain, jangan ngelove foto cowo lain hmmm, dan lebih berbakti.", "Maaf ya fajar gabisa kasih surprise yang romantis hmm. Cuma ini yang bisa fajar kasih ke sayang, fajar harap sayang suka ya hmm", "Sekali lagi, Barakallah fii Umrik yaa sayangkuu. Semoga semua impian, keinginan, dan harapan sayang bisa tercapai, Aamiin. I love you sayang, I miss you."],
   startDelay: 2000,
   speed: 75,
-  waitUntilVisible: false
+  waitUntilVisible: true
 }).go();
 
 
 new TypeIt("#trims", {
-  strings: ["Terimakasih Sayangkuu."],
+  strings: ["Terimakasih."],
   startDelay: 2000,
   speed: 150,
   loop: false,
